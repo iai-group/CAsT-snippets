@@ -4,15 +4,15 @@
 [![build](https://github.com/iai-group/CAsT-snippets/actions/workflows/python-package-conda.yaml/badge.svg)](https://github.com/iai-group/CAsT-snippets/actions/workflows/python-package-conda.yaml)
 ![Python version](https://img.shields.io/badge/python-3.9-blue)
 
-## Summary
-
-Research on conversational search has so far mostly focused on query rewriting and multi-stage passage retrieval. However, synthesizing the top retrieved passages into a complete, relevant, and concise response is still an open challenge. Having snippet-level annotations of relevant passages would enable both (1) the training of response generation models that are able to ground answers in actual statements and (2) the automatic evaluation of the generated responses in terms of completeness. In this paper, we address the problem of collecting high-quality snippet-level answer annotations for two of the TREC Conversational Assistance track datasets. To ensure quality, we first perform a preliminary annotation study, employing different task designs, crowdsourcing platforms, and workers with different qualifications. Based on the outcomes of this study, we refine our annotation protocol before proceeding with the full-scale data collection. Overall, we gather annotations for 1.8k question-paragraph pairs, each annotated by three independent crowd workers. The process of collecting data at this magnitude also led to multiple insights about the problem that can inform the design of future response-generation methods.
-
 This repository provides resources developed within the following article [[PDF](https://arxiv.org/abs/2308.08911)]:
 
 > W. Łajewska and K. Balog. **Towards Filling the Gap in Conversational Search: From Passage Retrieval to Conversational Response Generation.** In: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM '23). ACM. Birmingham, United Kingdom. October 2023. [10.1145/3583780.3615132](https://doi.org/10.1145/3583780.3615132)
 
 An extended version of this paper is available on [arXiv](https://arxiv.org/abs/2308.08911).
+
+## Summary
+
+Research on conversational search has so far mostly focused on query rewriting and multi-stage passage retrieval. However, synthesizing the top retrieved passages into a complete, relevant, and concise response is still an open challenge. Having snippet-level annotations of relevant passages would enable both (1) the training of response generation models that are able to ground answers in actual statements and (2) the automatic evaluation of the generated responses in terms of completeness. In this paper, we address the problem of collecting high-quality snippet-level answer annotations for two of the TREC Conversational Assistance track datasets. To ensure quality, we first perform a preliminary annotation study, employing different task designs, crowdsourcing platforms, and workers with different qualifications. Based on the outcomes of this study, we refine our annotation protocol before proceeding with the full-scale data collection. Overall, we gather annotations for 1.8k question-paragraph pairs, each annotated by three independent crowd workers. The process of collecting data at this magnitude also led to multiple insights about the problem that can inform the design of future response-generation methods.
 
 ## CAsT-snippets dataset
 
