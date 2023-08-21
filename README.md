@@ -1,7 +1,7 @@
 # Towards Filling the Gap in Conversational Search: From Passage Retrieval to Conversational Response Generation
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![build](https://github.com/iai-group/snippet_annotation/actions/workflows/python-package-conda.yaml/badge.svg)](https://github.com/iai-group/snippet_annotation/actions/workflows/python-package-conda.yaml)
+[![build](https://github.com/iai-group/CAsT-snippets/actions/workflows/python-package-conda.yaml/badge.svg)](https://github.com/iai-group/CAsT-snippets/actions/workflows/python-package-conda.yaml)
 ![Python version](https://img.shields.io/badge/python-3.9-blue)
 
 ## Summary
