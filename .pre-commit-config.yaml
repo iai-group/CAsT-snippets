@@ -17,7 +17,7 @@ repos:
         name: docformatter
         description: "Formats docstrings to follow PEP 257."
         entry: docformatter
-        args: [--in-place]
+        args: [-c]
         language: python
         types: [python]
 
